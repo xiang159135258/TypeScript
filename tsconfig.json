@@ -5,7 +5,7 @@
     
     // 那些ts文件需要被编译
     "include": [
-        "编译/*"
+        "./src/*"
     ],
     // 那些ts文件不需要被编译
     "exclude": [
@@ -15,7 +15,7 @@
         // 指定ts被编译为ES版本
         "target": "ES6",
         // 指定要使用的模块化规范
-        "module": "System",
+        // "module": "System",
         // 指定项目中要使用的库
         "lib": ["DOM"],
         // 指定编译后的文件目录
@@ -44,7 +44,7 @@
         "noImplicitThis": false,
 
         // 严格的检查空值
-        "strictNullChecks": true  
+        "strictNullChecks": false  
 
 
     }

@@ -1,0 +1,1 @@
+(()=>{"use strict";let o;console.log(2143),console.log("hello"),o=["ss",12],console.log(o)})();
