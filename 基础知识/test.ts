@@ -37,6 +37,9 @@ let d : boolean | string;
 d = true;
 d =  'dadas';
 d = 2313;
+let n : {na :string} & {age :number}
+n = {na:'123', age: 123}
+
 
 function fn(): void {
     return undefined;
@@ -61,3 +64,27 @@ i = function(n1,n2){return b }
 
 // string[] 表示字符串数组
 let j :string[]
+let k: Array<string>
+
+// 元组：固定长度的数组
+let l : [string, number];
+l =  ['ss',12,233];
+
+// 枚举
+enum Sex{
+    male = 0,
+    Femalr = 1
+}
+let m: {name:string, sex: Sex};
+m = {
+    name:'s',
+    sex: Sex.male
+}
+console.log(m.sex === Sex.Femalr)
+
+// 类型别名
+type meType  = 1 | 3 | 4
+let o1 : meType
+let o2 : meType
+o1 = 1
+o2 = 2
