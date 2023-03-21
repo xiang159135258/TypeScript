@@ -5,8 +5,9 @@
     
     // 那些ts文件需要被编译
     "include": [
-        "./src/*"
-    ],
+        "./src/*",
+        "src/style/index.ts"    
+],
     // 那些ts文件不需要被编译
     "exclude": [
 
